@@ -1,0 +1,48 @@
+.encabezado{
+    background-image: url(../multimedia/img/fondo-lema.jpg);
+    height: 420px;
+	width: 100%;
+    background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    div{
+        h1{
+            background-color: rgb(46, 71, 170);
+            color:white ;
+            font-size: 70px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 5px;
+        }
+        p{
+            background-color: rgb(46, 71, 170);
+            color:white ;
+            font-size: 35px;
+            border-radius: 10px;
+        }
+
+        }
+    }
+
+/*encabezado nosotros*/
+
+    .div-encabezado-nosotros{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        background-color: rgb(77, 101, 199) ;
+        margin-top: 40px;
+        p{
+            font-size: 42px;
+            font-family: cursive;
+        }
+        img{
+            width: 50%;
+            height: 250px;
+    
+        }
+    }
+/*fin encabezado nosotros*/

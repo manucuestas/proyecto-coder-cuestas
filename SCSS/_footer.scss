@@ -1,0 +1,65 @@
+.pie {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    background-color:  rgb(46, 71, 170);
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    div{
+        width: 300px;
+        p{
+            margin: 10px;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        }
+    
+    .pie-nosotros{
+        p{
+            width: 400px;
+            align-items: center;
+            margin: 5px;
+            img{
+                width: 40px;
+                height: 40px;
+                 object-fit: cover;
+
+
+            }
+
+        }
+
+    }
+    .pie-redes{
+        text-align: center;
+        nav{
+            img{
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                margin: 5px;
+                background-color: white;
+
+            }
+        } 
+        
+    }
+    .pie-info{
+        text-align: center;
+
+    }
+   
+}
+@media (max-width:768px){
+    .pie{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+     
+    }
+    
+    
+}
